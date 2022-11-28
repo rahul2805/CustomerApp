@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/order_list_layout"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/order_id_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Order Id:"/>
+    <TextView
+        android:id="@+id/order_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="ID"
+        android:layout_toRightOf="@+id/order_id_title"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_below="@+id/order_id_tv"
+        android:id="@+id/order_items_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Items:"/>
+    <TextView
+        android:layout_below="@+id/order_id_tv"
+        android:id="@+id/order_items_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Items"
+        android:layout_toRightOf="@+id/order_items_title"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_below="@+id/order_items_tv"
+        android:id="@+id/order_amnt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Total Amount:"/>
+    <TextView
+        android:layout_below="@+id/order_items_tv"
+        android:id="@+id/order_amnt_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Amount"
+        android:layout_toRightOf="@+id/order_amnt_title"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_below="@+id/order_amnt_tv"
+        android:id="@+id/order_date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Ordered On:"/>
+    <TextView
+        android:layout_below="@+id/order_amnt_tv"
+        android:id="@+id/order_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="date"
+        android:layout_toRightOf="@+id/order_date_title"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_below="@+id/order_date_tv"
+        android:id="@+id/order_address_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Address:"/>
+    <TextView
+        android:layout_below="@+id/order_date_tv"
+        android:id="@+id/order_address_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="address"
+        android:layout_toRightOf="@+id/order_address_title"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_below="@+id/order_address_tv"
+        android:id="@+id/order_contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Contact:"/>
+    <TextView
+        android:layout_below="@+id/order_address_tv"
+        android:id="@+id/order_contact_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="contact"
+        android:layout_toRightOf="@+id/order_contact_title"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_below="@+id/order_contact_tv"
+        android:id="@+id/order_delivered_on_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Delivered On:"/>
+    <TextView
+        android:layout_below="@+id/order_contact_tv"
+        android:id="@+id/order_delivered_on_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="delivered on"
+        android:layout_toRightOf="@+id/order_delivered_on_title"
+        android:layout_gravity="center_vertical"/>
+
+</RelativeLayout>
